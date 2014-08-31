@@ -825,9 +825,9 @@ static void homeaxis(int axis) {
 
 void deploy_z_probe() {
   feedrate = homing_feedrate[X_AXIS];
-  destination[X_AXIS] = 25;
+  destination[X_AXIS] = 40;
   destination[Y_AXIS] = 78;
-  destination[Z_AXIS] = 100;
+  destination[Z_AXIS] = 50;
   prepare_move_raw();
 
   feedrate = homing_feedrate[X_AXIS]/10;
