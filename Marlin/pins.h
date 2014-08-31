@@ -390,10 +390,15 @@
     #define SDPOWER            -1
     #define SDSS               53
     #define LED_PIN            13
-  #endif
+
+// Alex: added
+    #define BEEPER             33
+
+#endif
 
   #if MOTHERBOARD == 33 || MOTHERBOARD == 35
-    #define FAN_PIN            9 // (Sprinter config)
+    // Alex: Was 9, but i use EXTRUDER_0_AUTO_FAN_PIN for that instead
+    #define FAN_PIN            4 // (Sprinter config)
   #else
     #define FAN_PIN            4 // IO pin. Buffer needed
   #endif
