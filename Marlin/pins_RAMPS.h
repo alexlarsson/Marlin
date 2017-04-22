@@ -156,7 +156,8 @@
   #define RAMPS_D8_PIN   8
 #endif
 #ifndef RAMPS_D9_PIN
-  #define RAMPS_D9_PIN   9
+// We set this to 4 (not 9) becaue 9 is used for the auto fan
+  #define RAMPS_D9_PIN   4
 #endif
 #ifndef RAMPS_D10_PIN
   #define RAMPS_D10_PIN 10
