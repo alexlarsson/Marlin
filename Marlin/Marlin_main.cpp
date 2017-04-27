@@ -825,24 +825,24 @@ static void homeaxis(int axis) {
 
 void deploy_z_probe() {
   feedrate = homing_feedrate[X_AXIS];
-  destination[X_AXIS] = 25;
-  destination[Y_AXIS] = 78;
-  destination[Z_AXIS] = 100;
+  destination[X_AXIS] = 30;
+  destination[Y_AXIS] = 80;
+  destination[Z_AXIS] = 50;
   prepare_move_raw();
 
   feedrate = homing_feedrate[X_AXIS]/10;
-  destination[X_AXIS] = 0;
+  destination[X_AXIS] = -10;
   prepare_move_raw();
   st_synchronize();
 }
 
 void retract_z_probe() {
   feedrate = homing_feedrate[X_AXIS];
-  destination[Z_AXIS] = current_position[Z_AXIS] + 20;
+  destination[Z_AXIS] = current_position[Z_AXIS] + 25;
   prepare_move_raw();
 
-  destination[X_AXIS] = -55;
-  destination[Y_AXIS] = 63;
+  destination[X_AXIS] = -45;
+  destination[Y_AXIS] = 70;
   destination[Z_AXIS] = 30;
   prepare_move_raw();
 

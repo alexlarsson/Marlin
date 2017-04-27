@@ -353,7 +353,7 @@
     #define SDSS               25//53
     #define LED_PIN            13
 
-    #define BEEPER             33    
+    #define BEEPER             -1    
 
   #else
 
