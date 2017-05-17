@@ -35,6 +35,17 @@
 #undef FAN_PIN
 #define FAN_PIN  4 // No fan
 
+#undef X_MAX_PIN
+#define X_MAX_PIN 3
+
+#undef Y_MAX_PIN
+#define Y_MAX_PIN 14
+
+#undef Z_MIN_PIN
+#undef Z_MAX_PIN
+#define Z_MIN_PIN          19 // autolevel for deltabot
+#define Z_MAX_PIN          18
+
 //
 // Servos
 //
