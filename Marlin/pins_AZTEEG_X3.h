@@ -33,7 +33,7 @@
 #include "pins_RAMPS_13.h"
 
 #undef FAN_PIN
-#define FAN_PIN  -1 // No fan
+#define FAN_PIN  4 // No fan
 
 //
 // Servos
