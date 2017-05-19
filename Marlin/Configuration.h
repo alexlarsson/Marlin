@@ -440,7 +440,7 @@
   #define DELTA_HEIGHT 250.1 // get this value from auto calibrate - use G33 C-1 at 1st time calibration
 
   // Print surface diameter/2 minus unreachable space (avoid collisions with vertical towers).
-  #define DELTA_PRINTABLE_RADIUS 90.0
+  #define DELTA_PRINTABLE_RADIUS 85.0
 
   // Delta calibration menu
   // See http://minow.blogspot.com/index.html#4918805519571907051
