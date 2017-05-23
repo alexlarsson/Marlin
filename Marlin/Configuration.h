@@ -425,7 +425,7 @@
   #define DELTA_DIAGONAL_ROD 215.0 // mm
 
   // Horizontal offset from middle of printer to smooth rod center.
-  #define DELTA_SMOOTH_ROD_OFFSET 144.7 // mm
+  #define DELTA_SMOOTH_ROD_OFFSET 145.4 // mm
 
   // Horizontal offset of the universal joints on the end effector.
   #define DELTA_EFFECTOR_OFFSET 19.9 // mm
@@ -458,7 +458,7 @@
   // After homing move down to a height where XY movement is unconstrained
   //#define DELTA_HOME_TO_SAFE_ZONE
 
-  #define DELTA_ENDSTOP_ADJ { 0, 0, 0 } // get these from auto calibrate
+  #define DELTA_ENDSTOP_ADJ { -0.23, -0.27, 0 } // get these from auto calibrate
 
   // Trim adjustments for individual towers
   // tower angle corrections for X and Y tower / rotate XYZ so Z tower angle = 0
